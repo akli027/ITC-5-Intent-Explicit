@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#91F1E8"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    tools:context=".Dashboard">
+
+    <ImageView
+        android:id="@+id/logoitc"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ass1"
+        android:transitionName="logo_itc" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/bangers"
+        android:text="Selamat Datang"
+        android:textSize="30sp"
+        android:transitionName="logo_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/bangers"
+        android:text="LOGIN  "
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="Username"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/t_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:hint="Username" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Password"
+        android:textSize="16dp"/>
+
+    <EditText
+        android:id="@+id/t_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bot"
+        android:text="LOGIN" />
+
+
+</LinearLayout>
